@@ -1,4 +1,4 @@
-const apiUrl = "https://ai.neealdon3-3f0.workers.dev/:API";
+const apiUrl = "https://worker-green-forest-c926.neealdon3-3f0.workers.dev/:API";
 let uuid = '';
 
 function generateUUID() {
