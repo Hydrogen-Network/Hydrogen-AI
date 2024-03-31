@@ -1,17 +1,4 @@
 <script>
-  function check(str) {
-    const options = {
-      method: 'POST',
-      headers: {
-        Authorization: 'Bearer shuttle-df5e87b9dbff06f6f7cf',
-        'Content-Type': 'application/json'
-      },
-      body: {"input":str,"model":"text-moderation-latest"}
-    };
-    fetch('https://api.shuttleai.app/v1/moderations', options)
-      .then(response => response.json())
-      .then(response => console.log(response.results[0].flagged))
-      .catch(err => console.error(err));
-  }
+
 </script>
   <input id="hi"/>
