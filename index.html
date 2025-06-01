@@ -10,9 +10,6 @@
 <body>
 
   <h1>AI Chatbot</h1>
-<div id="chats">
-  <button onclick="newchat();">New Chat</button>
-</div>
   <div id="chat-history">
     <p id="Welcome-Message">Bot: Hello! ask me anything!</p>
   </div>
@@ -21,18 +18,7 @@
     <input type="text" id="user-message" placeholder="Type your message..." />
     <button type="submit">Send</button>
   </form>
-<script>
-function newchat() {
-  var chatbutton = document.createElement('button');
-  chatbutton.innerHTML = 'New Chat';
-  chatbutton.onclick = '';
-  var chat = document.createElement('div');
-  chat.id = 'chat'
-  chat.innerHTML = '<p id="Welcome-Message">Bot: Hello! ask me anything!</p>'
-  document.appendChild(chatbutton);
-  document.appendChild(chat);
-}
-</script>
+
   <script src="script.js"></script>
 
 </body>
